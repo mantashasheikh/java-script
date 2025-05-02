@@ -1,19 +1,19 @@
-var name = "Mantasha sheikh";
-var age = 20;
-console.log(name);
-console.log(age);
+// var name = "Mantasha sheikh";
+// var age = 20;
+// console.log(name);
+// console.log(age);
 
-var a;
-a=100;
-console.log(a);
+// var a;
+// a=100;
+// console.log(a);
 
-let b;
-b=200;
-console.log(b);
+// let b;
+// b=200;
+// console.log(b);
 
-var c=200;
-var c=10;
-console.log(c)
+// var c=200;
+// var c=10;
+// console.log(c)
 
 
 // premitive data types
