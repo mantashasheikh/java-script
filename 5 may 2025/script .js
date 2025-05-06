@@ -77,7 +77,7 @@ console.log("mod=",mod);
 
 
 
-// Date methods
+// Date object
 
 let d = new Date();
 console.log(d);
@@ -113,6 +113,16 @@ console.log(d);
 // milliseconds
 d = new Date(2020);
 console.log(d);
+
+
+// string
+d = new Date("2022-3-12 12:30:45");
+d = new Date("12-3:4");
+d = new Date("2022/5/13")
+console.log(d)
+
+
+
 
 
 
