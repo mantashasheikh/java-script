@@ -1,3 +1,4 @@
+// current date
 let d = new Date()
 
 // methods of date
