@@ -87,18 +87,52 @@ let student = [{
     age:22,
     fees:43000
 }]
-console.log(student[1])        //get only one object
-console.log(student[1].age)     //get only one element of any object
+// console.log(student[1])        //get only one object
+// console.log(student[1].age)     //get only one element of any object
 
-student[1].course = "fswd"    //insert
-console.log(student)
+// student[1].course = "fswd"    //insert
+// console.log(student)
 
-delete student[1].age         //delete
-console.log(student)
+// delete student[1].age         //delete
+// console.log(student)
 
 
-student[2].age = 10n         //update
-console.log(student)
+// student[2].age = 10        //update
+// console.log(student)
+
+
+
+
+let show = document.querySelector("#show")
+student.map((e)=>{
+    show.innerHTML += `
+    <div>
+    <h1> ${e.name}</h1>
+    <h2> ${e.age}</h2>
+    <h3> ${e.fees}</h3>
+    <div>
+    `
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
