@@ -7,24 +7,45 @@
     <style>
         #big-div{
             height: 100vh;
-            width: 180vh;
+            width: 100%;
             border: 1px solid black;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: rgb(32, 124, 186);
         }
         #div1{
-            height: 400px;
-            width:300px;
+            height: 500px;
+            width:400px;
             border:2px solid black;
-            background-color: blueviolet;
+            background-color: rgb(230, 20, 205);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 2px 2px 50px 10px rgb(183, 14, 245);
         }
         #div2{
-            height: 400px;
-            width:300px;
+            height: 500px;
+            width:400px;
             border:2px solid black;
-            background-color: blueviolet;
+            background-color: goldenrod;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             box-shadow: 2px 2px 50px 10px rgb(183, 14, 245);
 
+        }
+        #date{
+            font-size: 120px;
+        }
+        #month{
+            font-size: 50px;
+        }
+        #year{
+            font-size: 120px;
+        }
+        #day{
+            font-size: 50px;
         }
 
 
@@ -32,8 +53,14 @@
 </head>
 <body>
     <div id="big-div">
-        <div id="div1"></div>
-        <div id="div2"></div>
+        <div id="div1">
+            <h1 id="date">21</h1>
+            <h2 id="month">August</h2>
+        </div>
+        <div id="div2">
+            <h1 id="year">2025</h1>
+            <h2 id="day">thursday</h2>
+        </div>
     </div>
    
 
