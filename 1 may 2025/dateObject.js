@@ -14,4 +14,14 @@ console.log(time.getMilliseconds())
 
 
 
+let month = ["sun","mon","tues","wed","thurs","fri","sat"]
+console.log(month[time.getDay()])
+
+
+
+
+
+
+
+
 
