@@ -1,4 +1,29 @@
-let num=10
-for(let i=1 ; i<=num; i++){
-    console.log(setInterval(()=>{},2000))
-}
+// let clickme = ()=>{let para = document.querySelector("#para")
+// let n = 0
+// setInterval(()=>{
+//     para.innerHTML = n++
+// },2000)}
+
+
+
+let n = 0
+let start = ()=>{let para = document.querySelector("#para")
+let co = setInterval(()=>{
+    para.innerHTML = n++
+    
+    
+},2000)}
+
+
+let stop = ()=>{
+let para = document.querySelector("#para")
+let co = setInterval(()=>{
+    clearInterval(co)
+},2000)}
+
+
+
+
+
+
+
