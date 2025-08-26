@@ -51,4 +51,4 @@ let clickme = ()=>{
     
 
 }
-document.getElementById("clickme").addEventListener("click", hideRandomBox);
+
