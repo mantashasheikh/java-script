@@ -50,14 +50,20 @@
 
 
     <script>
-        function updateclock(){
-            var now = new Date() 
-            var hour = now.getHours()
-            var min = now.getMinutes()
-            var sec = now.getSeconds()
-            var pe = "AM"
+       
+        let date = new Date()
+        let hour = date.getHours()
+        let min = date.getMinutes()
+        let sec = date.getSeconds()
 
-        }
+        document.querySelector("#hour").innerHTML = hour
+        document.querySelector("#minute").innerHTML = min
+        document.querySelector("#second").innerHTML = sec
+        
+        
+            
+
+        
     </script>
     
     
