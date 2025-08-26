@@ -5,10 +5,10 @@ let clickme = ()=>{
 
     let vs1 = document.querySelector(`#vs1${dice}`)
     let vs2 = document.querySelector(`#vs2${dice}`)
-    let vs3 = document.querySelector(`#vs1${dice}`)
-    let vs4 = document.querySelector(`#vs1${dice}`)
-    let vs5 = document.querySelector(`#vs1${dice}`)
-    let vs6 = document.querySelector(`#vs1${dice}`)
+    let vs3 = document.querySelector(`#vs3${dice}`)
+    let vs4 = document.querySelector(`#vs4${dice}`)
+    let vs5 = document.querySelector(`#vs5${dice}`)
+    let vs6 = document.querySelector(`#vs6${dice}`)
 
 
     if(dice=="1"){
@@ -51,4 +51,4 @@ let clickme = ()=>{
     
 
 }
-// document.getElementById("clickme").addEventListener("click", hideRandomBox);
+document.getElementById("clickme").addEventListener("click", hideRandomBox);
