@@ -23,3 +23,12 @@ siblings.forEach((sib) => {
     sib.style.backgroundColor = "yellow"
 
 })
+
+
+
+
+let div = document.getElementById("container")
+let para2 =  document.createElement("p")
+para2.textContent = "this is new para . "
+para2.style.backgroundColor = "teal"
+div.appendChild(p)
