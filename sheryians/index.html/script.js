@@ -28,7 +28,14 @@ siblings.forEach((sib) => {
 
 
 let div = document.getElementById("container")
+div.style.border = "2px solid black"
 let para2 =  document.createElement("p")
 para2.textContent = "this is new para . "
+
 para2.style.backgroundColor = "teal"
-div.appendChild(p)
+let para3 = document.createElement("p")
+para3.textContent = "this is para 3"
+para3.style.backgroundColor = "teal"
+
+div.appendChild(para2)
+div.prepend(para3)
