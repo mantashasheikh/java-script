@@ -39,3 +39,9 @@ para3.style.backgroundColor = "teal"
 
 div.appendChild(para2)
 div.prepend(para3)
+
+
+
+let list = document.getElementById("list")
+let banana = list.children[1]
+list.removeChild(banana)
