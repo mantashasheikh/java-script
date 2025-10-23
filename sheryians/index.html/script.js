@@ -45,3 +45,18 @@ div.prepend(para3)
 let list = document.getElementById("list")
 let banana = list.children[1]
 list.removeChild(banana)
+
+
+
+// style update
+let h2 = document.getElementById("head1")
+h2.style.color  = "purple"
+h2.style.backgroundColor = "pink"
+h2.style.fontWeight = "15px"
+
+
+// using classList property
+let h = document.getElementById("heading")
+h.classList.add("highlight")
+h.classList.remove("highlight")
+h.classList.toggle("highlight")
