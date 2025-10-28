@@ -17,3 +17,8 @@ document.getElementById("name").addEventListener("input", (e) => {
 document.getElementById("color").addEventListener("change", (e) => {
   console.log("You selected:", e.target.value);
 });
+
+
+document.getElementById("typing").addEventListener("keydown", (e) => {
+  console.log("Key pressed:", e.key);
+});
