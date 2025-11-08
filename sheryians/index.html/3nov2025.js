@@ -6,4 +6,7 @@ h.style.backgroundColor = "yellow"
 let p = document.getElementById("para")
 p.innerHTML = "<h1>this is heading 1</h1>"
 p.style.color = "blue"
-p.style.backgroundColor = "pink"
+p.style.backgroundColor = "purple"
+
+
+
