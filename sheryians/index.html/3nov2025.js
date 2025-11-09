@@ -11,6 +11,7 @@ p.style.backgroundColor = "purple"
 
 let h2 = document.getElementById("heading2")
 h2.style.color = "purple"
+h2.style.backgroundColor = "pink"
 
 
 
