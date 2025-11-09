@@ -9,4 +9,9 @@ p.style.color = "blue"
 p.style.backgroundColor = "purple"
 
 
+let h2 = document.getElementById("heading2")
+h2.style.color = "purple"
+
+
+
 
