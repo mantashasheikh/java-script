@@ -14,5 +14,10 @@ h2.style.color = "purple"
 h2.style.backgroundColor = "pink"
 
 
+let h3 = document.getElementById("heading3")
+h3.style.color = "white"
+
+
+
 
 
