@@ -17,6 +17,9 @@ h2.style.backgroundColor = "pink"
 let h3 = document.getElementById("heading3")
 h3.style.color = "white"
 h3.style.backgroundColor = "brown"
+h3.style.display = "flex"
+h3.style.alignItems = "center"
+h3.style.justifyContent = "center"
 
 
 
