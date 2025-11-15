@@ -23,5 +23,9 @@ h3.style.justifyContent = "center"
 
 
 
+let b = document.querySelector("body")
+b.style.backgroundColor = "lightBlue"
+
+
 
 
