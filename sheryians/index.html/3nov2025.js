@@ -29,9 +29,9 @@ b.style.backgroundColor = "lightBlue"
 
 
 let h4 = document.getElementById("heading4")
-h4.style.fontWeight = "italic"
-h4.style.color = "orange"
-h4.style.backgroundColor = "yellow"
+h4.style.fontSize = "30px"
+h4.style.color = "Darkorange"
+h4.style.backgroundColor = "lightYellow"
 
 
 
