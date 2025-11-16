@@ -28,4 +28,11 @@ b.style.backgroundColor = "lightBlue"
 
 
 
+let h4 = document.getElementById("heading4")
+h4.style.fontWeight = "italic"
+
+
+
+
+
 
