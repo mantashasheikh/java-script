@@ -52,6 +52,9 @@ box.style.fontSize = "20px"
 box.style.color = "orange"
 box.style.backgroundColor = "yellow"
 box.style.border = "2px solid black" 
+box.style.display = "flex"
+box.style.justifyContent = "center"
+box.style.alignItems = "center"
 
 
 
