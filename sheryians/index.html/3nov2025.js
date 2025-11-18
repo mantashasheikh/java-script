@@ -37,6 +37,13 @@ h4.style.backgroundColor = "lightYellow"
 
 
 
+let h5 = document.getElementById("heading5")
+h5.style.innerText = "this is heading5"
+h5.style.fontSize = "20px"
+
+
+
+
 
 
 
