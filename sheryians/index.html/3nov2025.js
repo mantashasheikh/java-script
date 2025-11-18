@@ -45,6 +45,13 @@ h5.style.backgroundColor = "lightgreen"
 
 
 
+let box = document.getElementById("box")
+box.style.height = "100px"
+box.style.width = "100px"
+
+
+
+
 
 
 
