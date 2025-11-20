@@ -57,6 +57,20 @@ box.style.justifyContent = "center"
 box.style.alignItems = "center"
 
 
+let box2 = document.getElementById("box2")
+box2.style.height = "100px"
+box2.style.width = "100px"
+box2.style.fontSize = "20px"
+box2.style.color = "orange"
+box2.style.backgroundColor = "green"
+box2.style.border = "5px solid black" 
+box2.style.borderRadius = "5px"
+box2.style.display = "flex"
+box2.style.justifyContent = "center"
+box2.style.alignItems = "center"
+
+
+
 
 
 
