@@ -58,9 +58,9 @@ box.style.alignItems = "center"
 
 
 let box2 = document.getElementById("box2")
-box2.style.height = "100px"
-box2.style.width = "100px"
-box2.style.fontSize = "20px"
+box2.style.height = "200px"
+box2.style.width = "200px"
+box2.style.fontSize = "40px"
 box2.style.color = "orange"
 box2.style.backgroundColor = "green"
 box2.style.border = "5px solid black" 
