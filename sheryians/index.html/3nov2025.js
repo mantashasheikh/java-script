@@ -68,6 +68,7 @@ box2.style.borderRadius = "5px"
 box2.style.display = "flex"
 box2.style.justifyContent = "center"
 box2.style.alignItems = "center"
+box2.style.fontFamily = "cursive"
 
 
 
