@@ -71,6 +71,16 @@ box2.style.alignItems = "center"
 box2.style.fontFamily = "cursive"
 
 
+let box3 = document.getElementById("box3")
+box3.style.border = "2px solid black"
+box3.style.borderRadius = "50%"
+
+
+
+
+
+
+
 
 
 
