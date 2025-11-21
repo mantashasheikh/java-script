@@ -78,6 +78,9 @@ box3.style.height = "200px"
 box3.style.width = "200px"
 box3.style.color = "blue"
 box3.style.backgroundColor = "pink"
+box3.style.display = "flex"
+box3.style.justifyContent = "center"
+box3.style.alignItems = "center"
 
 
 
