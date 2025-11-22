@@ -81,6 +81,8 @@ box3.style.backgroundColor = "pink"
 box3.style.display = "flex"
 box3.style.justifyContent = "center"
 box3.style.alignItems = "center"
+box3.style.fontFamily  = "cursive"
+box3.style.fontSize = "20px"
 
 
 
