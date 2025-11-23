@@ -84,6 +84,10 @@ box3.style.alignItems = "center"
 box3.style.fontFamily  = "cursive"
 box3.style.fontSize = "20px"
 
+let fruits = document.getElementById("fruits")
+fruits.style.color = " darkOrange"
+
+
 
 
 
