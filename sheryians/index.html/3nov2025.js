@@ -86,10 +86,12 @@ box3.style.fontSize = "20px"
 
 let fruits = document.getElementById("fruits")
 fruits.style.color = " darkOrange"
+fruits.style.backgroundColor = "lightYellow"
 
 
 let vegetable = document.getElementById("vegetable")
 vegetable.style.color = "blue"
+vegetable.style.backgroundColor = "lightPink"
 
 
 
