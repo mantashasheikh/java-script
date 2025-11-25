@@ -94,6 +94,11 @@ vegetable.style.color = "blue"
 vegetable.style.backgroundColor = "lightPink"
 
 
+let games = document.getElementById("games")
+games.style.color = "pink"
+games.style.backgroundColor = "purple"
+
+
 
 
 
