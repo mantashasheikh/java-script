@@ -99,6 +99,11 @@ games.style.color = "pink"
 games.style.backgroundColor = "purple"
 
 
+let Games = document.getElementById("Games")
+Games.style.color = "red"
+Games.style.backgroundColor = "yellow"
+
+
 
 
 
