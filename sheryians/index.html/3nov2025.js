@@ -104,8 +104,8 @@ Games.style.color = "red"
 Games.style.backgroundColor = "yellow"
 
 let animals = document.getElementById("animals")
-animals.style.color = "red"
-animals.style.backgroundColor = "yellow"
+animals.style.color = "yellow"
+animals.style.backgroundColor = "brown"
 
 
 
