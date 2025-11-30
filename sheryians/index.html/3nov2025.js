@@ -103,7 +103,9 @@ let Games = document.getElementById("Games")
 Games.style.color = "red"
 Games.style.backgroundColor = "yellow"
 
-
+let animals = document.getElementById("animals")
+animals.style.color = "red"
+animals.style.backgroundColor = "yellow"
 
 
 
