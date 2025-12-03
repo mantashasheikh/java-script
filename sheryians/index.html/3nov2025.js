@@ -107,7 +107,9 @@ let animals = document.getElementById("animals")
 animals.style.color = "yellow"
 animals.style.backgroundColor = "brown"
 
-
+let waterani = document.getElementById("waterani")
+waterani.style.color = "blue"
+waterani.style.backgroundColor = "black"
 
 
 
